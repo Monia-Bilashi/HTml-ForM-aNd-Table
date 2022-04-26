@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    color: brown;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+table,
+tr,
+td,
+th {
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: rgba(91, 37, 142, 0.589);
+    padding: 2px;
+}
+
+td {
+    padding: 5px;
+}
+
+table {
+    width: 400px;
+    margin: auto;
+}
+
+.width {
+    width: 94%;
+    border: 1px solid lightgray;
+    margin: 1px;
+    border-radius: 5px;
+    padding: -5px;
+    box-shadow: inset 0px 0px 0px 0px grey;
+}
+
+.submit {
+    width: 200px;
+    padding: 2px;
+    margin: auto;
+}
